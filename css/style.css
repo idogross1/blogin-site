@@ -63,7 +63,7 @@ body {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 51.6%;
+  width: 12.9%;
   border-bottom: 5px solid #000;
 }
 
@@ -81,7 +81,7 @@ body {
   content: '';
   display: block;
   position: absolute;
-  border-block-end: 5px solid white;
+  border-block-end: 5px solid black;
   bottom: 0;
   width: 100%;
 }
@@ -89,7 +89,7 @@ body {
 .main-header .main-nav li:hover a {
   color: #58c93a;
 }
-.main-header .main-nav li::before:hover {
+.main-header .main-nav li:hover::before {
   border-block-end: 5px solid #58c93a;
 }
 
