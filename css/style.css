@@ -6,16 +6,16 @@
 
 @font-face {
   font-family: eurofrance;
-  src: url(/fonts/eurofurence/eurof35.ttf);
+  src: url(../fonts/eurofurence/eurof35.ttf);
 }
 
 @font-face {
   font-family: lato-regular;
-  src: url(/fonts/Lato/Lato-Regular.ttf);
+  src: url(../fonts/Lato/Lato-Regular.ttf);
 }
 @font-face {
   font-family: lato-bold;
-  src: url(/fonts/Lato/Lato-Bold.ttf);
+  src: url(../fonts/Lato/Lato-Bold.ttf);
 }
 
 html {
