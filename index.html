@@ -9,15 +9,17 @@
   </head>
 
   <body>
-    <header class="main-header">
+    <div class="main-header">
+    <header class="header-container main-layout flex space-between align-center">
       <div class="logo header-logo">Blogin<span>.</span></div>
-      <ul class="main-nav">
+      <ul class="main-nav flex space-around align-center">
         <!-- clean-list? -->
         <li><a href="#">Journal</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Work</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
+    </div>
     </header>
 
     <main class="main-content main-layout">
@@ -99,26 +101,30 @@
       </div>
     </main>
 
-    <footer class="main-footer">
+    <div class="footer-container">
+    <footer class="main-footer main-layout flex center">
       <div class="logo footer-logo">Blogin<span>.</span></div>
       <small
         >© 2014 Blogin.com - All Rights Reserved - Find more free Templates at
-        Pixelhint.com</small
+       <strong>Pixelhint.com</strong></small
       >
-      <ul class="social-nav">
+      <div class="socail-container">
+      <ul class="social-nav flex space-between align-center">
         <li>
-          <a href="#"><img src="img/s001.png" alt="" /></a>
+          <a class="social-btn facebook" href="#"></a>
         </li>
         <li>
-          <a href="#"><img src="img/s002.png" alt="" /></a>
+          <a class="social-btn twitter" href="#"></a>
         </li>
         <li>
-          <a href="#"><img src="img/s003.png" alt="" /></a>
+          <a class="social-btn behance" href="#"></a>
         </li>
         <li>
-          <a href="#"><img src="img/s004.png" alt="" /></a>
+          <a class="social-btn dribble" href="#"></a>
         </li>
       </ul>
+    </div>
     </footer>
+  </div>
   </body>
 </html>
